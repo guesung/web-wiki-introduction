@@ -32,22 +32,22 @@
         <section>
           <h3 class="subtitle">나만의 갤러리</h3>
           <article>
-            <h4>기억에 남는 여행지</h4>
+            <h4>기억에 남는 순간</h4>
             <div>
               <div class="flex">
-                <div class="profile-image square-image">기억에 남는 여행지 이미지 1</div>
-                <div class="profile-image square-image">기억에 남는 여행지 이미지 2</div>
-                <div class="profile-image square-image">기억에 남는 여행지 이미지 3</div>
+                <div class="memory-image1 square-image">기억에 남는 순간 이미지 1</div>
+                <div class="memory-image2 square-image">기억에 남는 순간 이미지 2</div>
+                <div class="memory-image3 square-image">기억에 남는 순간 이미지 3</div>
               </div>
               <div class="flex">
-                <div class="profile-image square-image">기억에 남는 여행지 이미지 4</div>
-                <div class="profile-image square-image">기억에 남는 여행지 이미지 5</div>
-                <div class="profile-image square-image">기억에 남는 여행지 이미지 6</div>
+                <div class="memory-image4 square-image">기억에 남는 순간 이미지 4</div>
+                <div class="memory-image5 square-image">기억에 남는 순간 이미지 5</div>
+                <div class="memory-image6 square-image">기억에 남는 순간 이미지 6</div>
               </div>
               <div class="flex">
-                <div class="profile-image square-image">기억에 남는 여행지 이미지 7</div>
-                <div class="profile-image square-image">기억에 남는 여행지 이미지 8</div>
-                <div class="profile-image square-image">기억에 남는 여행지 이미지 9</div>
+                <div class="memory-image7 square-image">기억에 남는 순간 이미지 7</div>
+                <div class="memory-image8 square-image">기억에 남는 순간 이미지 8</div>
+                <div class="memory-image9 square-image">기억에 남는 순간 이미지 9</div>
               </div>
             </div>
           </article>
@@ -71,6 +71,8 @@
             </p>
           </article>
 
+          <hr />
+
           <article>
             <h4>인생 노래</h4>
             <div class="thumbnail">
@@ -86,6 +88,8 @@
               우주 영화였다. 그런데 이 영화를 다시 보니, 마치 내 미래를 미리 보여준 복선과도 같다는 점을 깨달았다.
             </p>
           </article>
+
+          <hr />
 
           <article>
             <h4>인생 책</h4>
@@ -107,11 +111,18 @@
         <section>
           <div class="comment-writing-container">
             <form>
-              <fieldset>
-                <legend>댓글 쓰기</legend>
+              <fieldset class="comment">
                 <textarea
                   placeholder="정말 멋진 글이네요. 크루가 감동할 수 있도록 훈훈해지는 댓글 부탁 드립니다."
+                  class="comment"
                 ></textarea>
+                <img
+                  src="./images/comment-author-icon.png"
+                  alt="사용자 프로필 이미지"
+                  class="comment-author-icon"
+                  width="24px"
+                  height="24px"
+                />
               </fieldset>
             </form>
           </div>
@@ -119,7 +130,7 @@
             <li>
               <div class="comment-item">
                 <div class="comment-author">
-                  <img src="./images/comment-author-icon.png" alt="사용자 프로필 이미지" />
+                  <img src="./images/comment-author-icon.png" alt="사용자 프로필 이미지" width="24px" />
                   <span>방문자</span>
                 </div>
                 <div class="comment-content">
@@ -133,7 +144,7 @@
             <li>
               <div class="comment-item">
                 <div class="comment-author">
-                  <img src="./images/comment-author-icon.png" alt="사용자 프로필 이미지" />
+                  <img src="./images/comment-author-icon.png" alt="사용자 프로필 이미지" width="24px" />
                   <span>방문자</span>
                 </div>
                 <div class="comment-content">
@@ -146,7 +157,7 @@
             <li>
               <div class="comment-item">
                 <div class="comment-author">
-                  <img src="./images/comment-author-icon.png" alt="사용자 프로필 이미지" />
+                  <img src="./images/comment-author-icon.png" alt="사용자 프로필 이미지" height="24px" />
                   <span>방문자</span>
                 </div>
                 <div class="comment-content">

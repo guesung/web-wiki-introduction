@@ -100,9 +100,9 @@ aside h2 {
 .square-image {
   background-size: 100%;
   background-position: center 100%;
+  background-size: cover;
   width: var(--aside-width);
   height: var(--aside-width);
-
   text-indent: -1000rem;
 }
 
@@ -112,6 +112,34 @@ aside h2 {
 
 .profile-image {
   background-image: url('https://images.unsplash.com/photo-1618979251882-0b40ef3617f0?q=80&w=2487&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');
+}
+
+.memory-image1 {
+  background-image: url('../images/memories/1.png');
+}
+.memory-image2 {
+  background-image: url('../images/memories/2.jpeg');
+}
+.memory-image3 {
+  background-image: url('../images/memories/3.jpeg');
+}
+.memory-image4 {
+  background-image: url('../images/memories/4.jpeg');
+}
+.memory-image5 {
+  background-image: url('../images/memories/5.jpeg');
+}
+.memory-image6 {
+  background-image: url('../images/memories/6.jpeg');
+}
+.memory-image7 {
+  background-image: url('../images/memories/7.jpeg');
+}
+.memory-image8 {
+  background-image: url('../images/memories/8.jpeg');
+}
+.memory-image9 {
+  background-image: url('../images/memories/9.jpeg');
 }
 
 aside.right-sidebar nav {
@@ -130,6 +158,31 @@ ol.contents li:not(:last-child) {
 ol.contents li a {
   text-decoration: none;
   color: var(--font-default-color);
+}
+
+textarea.comment {
+  border: 1px #d8d8d8 solid;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  text-indent: 52px;
+  vertical-align: top;
+}
+
+textarea.comment::placeholder {
+  color: #cccccc;
+}
+
+fieldset.comment {
+  position: relative;
+}
+
+.comment-author-icon {
+  position: absolute;
+  left: 12px;
+  top: 0;
+  bottom: 0;
+  margin: auto;
 }
 
 footer {
@@ -158,4 +211,41 @@ footer p {
 
   --divider-color: #efefef;
   --font-default-color: #333;
+}
+
+.comment-writing-container {
+  margin-bottom: 24px;
+}
+
+.comment-item {
+  border: 1px #e9e9e9 solid;
+  margin-bottom: 8px;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  padding: 12px;
+  padding-left: 16px;
+  padding-right: 16px;
+}
+
+.comment-author {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+}
+
+.comment-author span {
+  font-family: Open Sans;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 16.34px;
+  letter-spacing: 4%;
+}
+
+.comment-content {
+  font-family: Open Sans;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 16.34px;
+  letter-spacing: 0%;
 }
