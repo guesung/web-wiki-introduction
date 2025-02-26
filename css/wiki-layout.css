@@ -160,7 +160,7 @@ ol.contents li a {
   color: var(--font-default-color);
 }
 
-input.comment {
+.comment-input {
   border: 1px #d8d8d8 solid;
   width: 100%;
   display: flex;
@@ -169,7 +169,7 @@ input.comment {
   height: 40px;
 }
 
-input.comment::placeholder {
+.comment-input::placeholder {
   color: #cccccc;
 }
 
