@@ -18,6 +18,11 @@ console.log(
 
 const submitButton = document.querySelector('.submit');
 const cancelButton = document.querySelector('.cancel');
+const form = document.querySelector('form');
+
+form.addEventListener('submit', (event) => {
+  event.preventDefault();
+});
 
 const resetInput = () => {
   document.querySelector('.comment-input').value = '';
