@@ -97,10 +97,11 @@
           <div class="comment-writing-container">
             <form>
               <fieldset class="comment">
-                <textarea
+                <input
                   placeholder="정말 멋진 글이네요. 크루가 감동할 수 있도록 훈훈해지는 댓글 부탁 드립니다."
                   class="comment"
-                ></textarea>
+                  type="text"
+                ></input>
                 <img
                   src="./images/comment-author-icon.png"
                   alt="사용자 프로필 이미지"
@@ -109,6 +110,8 @@
                   height="24px"
                 />
               </fieldset>
+              <button type="reset" class="cancel">취소</button>
+              <button type="button" class="submit">등록</button>
             </form>
           </div>
           <ul class="comment-list">

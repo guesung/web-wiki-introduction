@@ -160,21 +160,22 @@ ol.contents li a {
   color: var(--font-default-color);
 }
 
-textarea.comment {
+input.comment {
   border: 1px #d8d8d8 solid;
   width: 100%;
   display: flex;
   align-items: center;
   text-indent: 52px;
-  vertical-align: top;
+  height: 40px;
 }
 
-textarea.comment::placeholder {
+input.comment::placeholder {
   color: #cccccc;
 }
 
 fieldset.comment {
   position: relative;
+  flex: 1;
 }
 
 .comment-author-icon {
@@ -215,6 +216,28 @@ footer p {
 
 .comment-writing-container {
   margin-bottom: 24px;
+}
+
+.comment-writing-container form {
+  display: flex;
+}
+
+.comment-writing-container form button {
+  width: 70px;
+  border: none;
+  font-weight: 700;
+}
+
+.comment-writing-container form button.cancel {
+  background-color: #d8d8d8;
+}
+
+.comment-writing-container form button.submit {
+  background-color: #d7f9f6;
+}
+
+button {
+  cursor: pointer;
 }
 
 .comment-item {
